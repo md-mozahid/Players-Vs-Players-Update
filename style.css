@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to left, rgba(236, 112, 99, 0.9), rgba(52, 152, 219, 0.9));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 50px;
+    padding: 10px;
+}
+h3 {
+    font-size: 25px;
+    color: rgb(255, 0, 0);
+    text-transform: uppercase;
+}
+h4 {
+    font-size: 30px;
+    padding: 10px;
+}
+.game p {
+    display: inline-flex;
+    font-size: 20px;
+    padding: 10px;
+}
+
+form .number, .submit, .resetBtn {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+    color: deeppink;
+    font-size: 16px;
+}
+form .submit, .resetBtn {
+    cursor: pointer;
+}
+
+.button .p1Btn , .p2Btn {
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.p1Btn {
+    margin-right: 5px;
+    
+     
+}
+.p2Btn {
+    margin-left: 5px;
+    
+    
+}
+.p1Btn:hover, .toss:hover, .p2Btn:hover {
+    cursor: pointer;
+    /* color: deeppink; */
+}
+
+.winning-msg {
+    color: aliceblue;
+}
+
+.toss {
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: left;
+}
